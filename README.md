@@ -47,7 +47,8 @@ Only the __Jumphost & ELKWEB___ machine can accept connections from the Internet
 - _TODO: Add whitelisted IP addresses _52.186.140.144 (JUMPHOST)
 -                                      20.110.3.122 (ELKWEB)
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by _Jumphost____.
+
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_ELKWEB IP (10.2.0.4)
 
 A summary of the access policies in place can be found in the table below.
@@ -65,6 +66,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+
 - ..Using Ansible, configure the newly created VM.
 -From your Ansible container, add the new VM to Ansible's hosts file.
 -Create a playbook that installs Docker and configures the container.
@@ -73,7 +75,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Docker/DockerPS.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
